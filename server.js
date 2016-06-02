@@ -26,4 +26,4 @@ app.use((err, req, res, next) => {
 
 app.use(errorHandler);
 
-app.listen(6969, () => console.log('up on 6969 baby, server way up'));
+app.listen(process.env.PORT || 6969, () => console.log('up on 6969 baby, server way up'));
