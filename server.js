@@ -10,7 +10,7 @@ const dbPort = process.env.MONGOLAB_URI || 'mongodb://localhost/dev_db';
 
 app.use(morgan('dev'));
 
-mongoose.connect('mongodb://localhost/dev_db');
+mongoose.connect(dbPort);
 
 const manUnitedRouter = require('./routes/man_united_routes');
 const barcaRouter = require('./routes/barca_routes');
