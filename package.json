@@ -33,13 +33,12 @@
     "gulp-eslint": "^2.0.0",
     "gulp-mocha": "^2.2.0",
     "gulp-watch": "^4.3.5",
-    "mocha": "^2.4.5",
-
-    "morgan": "^1.7.0"
+    "mocha": "^2.4.5"
   },
   "dependencies": {
     "mongoose": "^4.4.19",
     "body-parser": "^1.15.1",
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "morgan": "^1.7.0"
   }
 }
